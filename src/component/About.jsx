@@ -53,22 +53,7 @@ const About = () => {
           className=" font-proxima text-[17px] w-[65%] px-6 py-2 tablet:w-full mobile:w-full mobile:px-2 text-gray-500"
         >
           <motion.p variants={textUpAnimate}>
-            Hello! My name is <b>Ansh Rathod</b>, I have been interested in app
-            development for many years and have been actively working on
-            building mobile applications for the past two years. I am constantly
-            seeking out new technologies and techniques to enhance my skills and
-            stay up-to-date in this field.
-          </motion.p>
-          <br />
-          <motion.p variants={textUpAnimate}>
-            Fast-Forward to today. recently I have build an application called
-            <a href="https://app.cineast.in">
-              <b> &quot;Cineast&quot; </b>
-            </a>
-            Which is a social media platform that I built specifically for movie
-            enthusiasts. It allows users to connect with other movie fans, share
-            their favorite films and recommendations. I put a lot of thoughts
-            and effort into the building functionality of the app.
+            Hello! My name is <b>Nalendro N.U.A.R.F</b>, I have been Interested in developing projects in the field of information technology, especially in software development such as website and mobile applications which includes back-end and front-end development. Has some experience in designing website and mobile application interface interactions. Can work well in a team or individually and responsibly to complete the task.
           </motion.p>
           <br />
           <motion.p variants={textUpAnimate}>
