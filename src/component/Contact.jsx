@@ -2,7 +2,7 @@ import Icon from "./Icon";
 import { motion } from "framer-motion";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
-import { faLinkedin, faInstagram } from '@fortawesome/free-brands-svg-icons'
+import { faLinkedin, faInstagram , faGithub} from '@fortawesome/free-brands-svg-icons'
 function Contact() {
   return (
     <motion.div
@@ -31,20 +31,20 @@ function Contact() {
         >
           <Icon
             i={3}
-            url="https://www.linkedin.com/in/ansh-rathod-478a81210/"
+            url="https://www.linkedin.com/in/nalendro/"
             classes={faLinkedin}
             name="Linkedin"
           />
 
           <Icon
             i={6}
-            url="mailto:anshrathod29@gmail.com"
-            classes={faEnvelope}
-            name="Email"
+            url="https://github.com/NNawval"
+            classes={faGithub}
+            name="Github"
           />
           <Icon
             i={7}
-            url="https://www.instagram.com/anshrathodfr"
+            url="https://www.instagram.com/nalendronawval/"
             name="Instagram"
             classes={faInstagram}
           />
