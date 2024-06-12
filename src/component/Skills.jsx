@@ -26,24 +26,28 @@ function Skills() {
             <h1 className="font-apple font-bold tracking-wide mb-3 uppercase text-[16px]">
               Languages
             </h1>
-            <ListItem name="dart" i={1} />
-            <ListItem name="javascript" i={2} />
-            <ListItem name="Typescript" i={3} />
-            <ListItem name="python" i={4} />
-            <ListItem name="html" i={5} />
-            <ListItem name="css" i={6} />
+            <ListItem name="Java" i={1} />
+            <ListItem name="C" i={1} />
+            <ListItem name="PHP" i={1} />
+            <ListItem name="Javascript" i={2} />
+            <ListItem name="Python" i={4} />
+            <ListItem name="HTML" i={5} />
+            <ListItem name="CSS" i={6} />
           </div>
           <div className="mr-14 tablet:mr-0 mobile:mr-0 mb-5">
             <h1 className="font-apple font-bold tracking-wide mb-3 uppercase text-[16px]">
               Frameworks
             </h1>
-            <ListItem name="flutter" i={1} />
-            <ListItem name="nextjs" i={1} />
+            <ListItem name="Flutter" i={1} />
+            <ListItem name="Nextjs" i={1} />
             <ListItem name="Nodejs" i={1} />
+            <ListItem name="Expressjs" i={1} />
             <ListItem name="Tailwind CSS" i={1} />
             <ListItem name="Bootstrap" i={1} />
-            <ListItem name="react" i={1} />
-            <ListItem name="python flask" i={1} />
+            <ListItem name="ReactJs" i={1} />
+            <ListItem name="React Native" i={1} />
+            <ListItem name="CodeIgniter4" i={1} />
+
           </div>
           <div className="mr-14 mb-5">
             <h1 className="font-apple font-bold tracking-wide mb-3 uppercase text-[16px]">
@@ -52,9 +56,8 @@ function Skills() {
             <ListItem name="PostgreSql" i={1} />
             <ListItem name="firebase" i={1} />
             <ListItem name="supabase" i={1} />
-            <ListItem name="Redis" i={1} />
             <ListItem name="mongodb" i={1} />
-            <ListItem name="Sqlite" i={1} />
+            <ListItem name="MySQL" i={1} />
           </div>
           <div className="mr-14 tablet:mr-0 mobile:mr-0 mb-5">
             <h1 className="font-apple font-bold tracking-wide mb-3 uppercase text-[16px]">
@@ -62,9 +65,6 @@ function Skills() {
             </h1>
             <ListItem name="docker" i={1} />
             <ListItem name="git & github" i={1} />
-            <ListItem name="kubernetes" i={1} />
-            <ListItem name="digital ocean" i={1} />
-            <ListItem name="heroku" i={1} />
           </div>
         </div>
       </div>

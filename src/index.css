@@ -19,5 +19,9 @@
   font-weight: 400;
   src: url("fonts/Poppins-Bold.ttf");
 }
-
+@font-face {
+  font-family: "Neue";
+  font-weight: 400;
+  src: url("fonts/Neue.ttf");
+}
 

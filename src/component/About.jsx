@@ -20,7 +20,7 @@ const About = () => {
   return (
     <div
       id="about"
-      className="bg-bg py-[100px] w-screen max-w-full desktop:container"
+      className="bg-transparent py-[100px] w-screen max-w-full desktop:container"
     >
       <div className=" flex flex-row max-w-[900px] mx-auto tablet:block mobile:block mobile:px-3">
         <motion.div

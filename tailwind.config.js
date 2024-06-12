@@ -13,10 +13,14 @@ export default {
       xl: '1440px',
     },
     extend: {
+      aspectRatio: {
+        '3/2': '3 / 2',
+      },
       fontFamily: {
         apple: ['San Francisco'],
         proxima: ['Proxima Nova'],
         poppins: ['Poppins'],
+        neue: ['Neue'],
       },
       colors: {
         'bg': '#F5F5F5',

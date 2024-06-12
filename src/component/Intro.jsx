@@ -11,7 +11,7 @@ const textAnimate = {
 };
 
 const Intro = () => (
-    <div className="bg-bg">
+    <div className="bg-transparent ">
         <div id="home" className="box-border  bg-no-repeat ">
             <div className=" backdrop-blur-3xl h-1/2 ">
                 <div className="desktop:max-w-[1800px] m-auto flex">
