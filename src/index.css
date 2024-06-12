@@ -24,4 +24,9 @@
   font-weight: 400;
   src: url("fonts/Neue.ttf");
 }
+@font-face {
+  font-family: "Neue Normal";
+  font-weight: 400;
+  src: url("fonts/Neue-normal.ttf");
+}
 

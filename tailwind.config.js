@@ -15,12 +15,15 @@ export default {
     extend: {
       aspectRatio: {
         '3/2': '3 / 2',
+        '21/10': ' 21 / 10',
+        '18/5': ' 18 / 5',
       },
       fontFamily: {
         apple: ['San Francisco'],
         proxima: ['Proxima Nova'],
         poppins: ['Poppins'],
         neue: ['Neue'],
+        neuenormal: ['Neue Normal']
       },
       colors: {
         'bg': '#F5F5F5',
