@@ -21,7 +21,8 @@ const Project = () => {
       description : 'Gofitz is a convenient online marketplace for futsal enthusiasts to easily book and rent futsal fields in their area. With just a few clicks, users can explore various available fields, check availability, and make reservations at their preferred time slots.' ,
       image: gofitz, 
       role:`UI design<br>Fullstack web developer`, 
-      framework :`ReactJs<br>Bootstrap<br>Supabase database`},
+      framework :`ReactJs<br>Bootstrap<br>Supabase database`,
+      link : 'https://github.com/NNawval/Gofitz-website'},
     { id: 2, title: 'JasaKula', 
       image: jasakula,  
       description : "JasaKula platforms are online marketplaces that enable individuals to offer their services to indonesia customers. Users can find a wide range of services, from graphic design, content writing, translation, to digital marketing and more. Freelancers on the platform have personalized profiles showcasing their portfolios, service rates, and reviews from previous clients, aiding potential customers in making informed decisions.", 
@@ -31,7 +32,8 @@ const Project = () => {
       description : 'FishCare are innovative app for monitoring fish ponds and automating feeding! Revolutionizing fish management, it offers real-time monitoring and automated feeding for optimal fish health. Integrated with IoT, users can remotely monitor crucial parameters like water temperature and pH levels, ensuring the ideal environment for their fish.',
       image: fishcare,  
       role:`UI design<br>Fullstack web developer`, 
-      framework :`ReactJs<br>Tailwind Css<br>Firebase database`},
+      framework :`ReactJs<br>Tailwind Css<br>Firebase database`,
+      link : 'https://github.com/NNawval/Fishcare-website'},
   ];
   const [showProject, setShowProject] = useState("");
 
@@ -40,8 +42,8 @@ const Project = () => {
       <div id='projectcard'></div>
       <div >
       {showProject === 'JasaKula' ? <ProjectCard title={Data[1].title} description={Data[1].description} role={Data[1].role} framework={Data[1].framework} image={jasakula1}/> :
-         showProject === 'GoFitz' ? <ProjectCard title={Data[0].title} description={Data[0].description} role={Data[0].role} framework={Data[0].framework} image={gofitz1}/> :
-         showProject === 'FishCare' ? <ProjectCard title={Data[2].title} description={Data[2].description} role={Data[2].role} framework={Data[2].framework} image={fishcare1}/> :
+         showProject === 'GoFitz' ? <ProjectCard title={Data[0].title} description={Data[0].description} role={Data[0].role} framework={Data[0].framework} image={gofitz1} link={Data[0].link}/> :
+         showProject === 'FishCare' ? <ProjectCard title={Data[2].title} description={Data[2].description} role={Data[2].role} framework={Data[2].framework} image={fishcare1} link={Data[2].link}/> :
          <ProjectCard/>}
       </div>
       <div id='projects' className='flex justify-start mt-32 p-12 tablet:p-10 mobile:p-6'>
