@@ -56,7 +56,7 @@ const Project = () => {
       </div>
       <div id='projects' className='flex justify-start mt-32 p-12 tablet:p-10 mobile:p-6'>
       <h1 className="font-neue uppercase text-3xl font-bold mobile:text-center">
-            My Course Project
+            My Project
              
           </h1>
       </div>
