@@ -6,6 +6,7 @@ import jasakula from "../assets/jasakula.png"
 import jasakula1 from "../assets/jasakula1.png"
 import fishcare from "../assets/fishcare.png"
 import fishcare1 from "../assets/fishcare1.png"
+import dashboard from "../assets/dashboard.png"
 import ProjectCard from './ProjectCard';
 const Project = () => {
 
@@ -34,6 +35,12 @@ const Project = () => {
       role:`UI design<br>Fullstack web developer`, 
       framework :`ReactJs<br>Tailwind Css<br>Firebase database`,
       link : 'https://github.com/NNawval/Fishcare-website'},
+      { id: 4, title: 'Risk Control Center',  
+        description : 'State-Owned Enterprises Risk Control Center. Designed to help organizations identify, monitor, and manage various risks that could impact business operations and sustainability. This application serves as a risk control hub, providing comprehensive visibility into potential risks, enabling more effective preventive actions, and supporting more informed decision-making.',
+        image: dashboard,  
+        role:`Fullstack web developer`, 
+        framework :`Laravel<br>Bootstrap 5<br>PostgreSQL`,
+        link : ''},
   ];
   const [showProject, setShowProject] = useState("");
 
@@ -44,6 +51,7 @@ const Project = () => {
       {showProject === 'JasaKula' ? <ProjectCard title={Data[1].title} description={Data[1].description} role={Data[1].role} framework={Data[1].framework} image={jasakula1}/> :
          showProject === 'GoFitz' ? <ProjectCard title={Data[0].title} description={Data[0].description} role={Data[0].role} framework={Data[0].framework} image={gofitz1} link={Data[0].link}/> :
          showProject === 'FishCare' ? <ProjectCard title={Data[2].title} description={Data[2].description} role={Data[2].role} framework={Data[2].framework} image={fishcare1} link={Data[2].link}/> :
+         showProject === 'Risk Control Center' ? <ProjectCard title={Data[3].title} description={Data[3].description} role={Data[3].role} framework={Data[3].framework} image={dashboard} link={Data[3].link}/> :
          <ProjectCard/>}
       </div>
       <div id='projects' className='flex justify-start mt-32 p-12 tablet:p-10 mobile:p-6'>
